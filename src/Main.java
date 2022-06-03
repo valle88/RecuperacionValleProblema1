@@ -5,10 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in );
-
-
         DocInformatico archivo = new DocInformatico("PACO", 32);
         ArrayList<String> lista2= new ArrayList<String>();
+
         boolean salir = false;
         int opcion = sc.nextInt();
 
@@ -30,15 +29,15 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Añadir Trabajo");
-                    lista2.add(archivo.nombre);
+                    /*lista2.add(archivo.nombre);*/
                     break;
                 case 4:
                     System.out.println("Ver lista de trabajo");
-                    System.out.println(lista2);
+                   /* System.out.println(lista2);*/
                     break;
                 case 5:
                     System.out.println("Imprimir");
-                    lista2.remove(archivo.nombre);
+                   /* lista2.remove(archivo.nombre);*/
                     break;
                 case 6:
                     System.out.println("Salir");
