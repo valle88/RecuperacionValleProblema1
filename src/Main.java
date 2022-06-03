@@ -6,10 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in );
 
+
         DocInformatico archivo = new DocInformatico("PACO", 32);
         ArrayList<String> lista2= new ArrayList<String>();
-
-
         boolean salir = false;
         int opcion = sc.nextInt();
 
@@ -39,6 +38,7 @@ public class Main {
                     break;
                 case 5:
                     System.out.println("Imprimir");
+                    lista2.remove(archivo.nombre);
                     break;
                 case 6:
                     System.out.println("Salir");
